@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kodmay.ThaiPublicAssemblyLaw"
+    android:versionCode="7"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.kodmay.ThaiPublicAssemblyLaw.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.purchase.PurchaseActivity" >
+        </activity>
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.forgotpassword.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.bookmark.BookmarkNoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.changepassword.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.lawdetail.LawDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodmay.ThaiPublicAssemblyLaw.ui.main.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9875265328943795~7012557379" />
+
+        <provider
+            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+            android:authorities="com.kodmay.ThaiPublicAssemblyLaw.DebugDBInitProvider"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="2.0.3" />
+
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:authorities="com.kodmay.ThaiPublicAssemblyLaw.mobileadsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.kodmay.ThaiPublicAssemblyLaw.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

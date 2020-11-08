@@ -1,0 +1,27 @@
+switch self {
+
+        case .getLawCat:
+            return "getlawbycat"
+        case .getLawCatParent(let id):
+            return "getdetaillawbycat/\(id)"
+        case .getLawDataParent(let id):
+            return "getlawdatabycat/\(id)"
+        case .getLawData:
+            return "getlawdata"
+        case .getAppData(let id):
+            return "getappdata?ios_id=\(id)"
+        case .getLawDetail(let id):
+            return "getlawdetail/\(id)"
+        case .getBookmark(let id):
+            return "getbookmark/\(id)"
+        case .addBookmark:
+            return "addbookmark"
+        case .getListApp:
+            return "listapp"
+        case .getBookmarkNote(let data):
+            return "getbookmarknote/\(data.userId)?lawId=\(data.lawId)"
+        case .deleteBookmark(let data):
+            return "deletebookmark/\(data.userId)?lawId=\(data.lawId)"
+        case .getDekaLaw(let id):
+            return "getdekalaw/\(id)"
+        }

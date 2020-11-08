@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ThaiPublicAssemblyLaw</string>
+    <string name="app_name_space">Thai Public Assembly Law</string>
+    <string name="title_activity_main">Home</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_2">Law</string>
+    <string name="tab_3">Bookmark</string>
+    <string name="tab_4">More Apps</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="email">อีเมล์</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="ok">ตกลง</string>
+    <string name="registered_login">มีบัญชีอยู่แล้ว? เข้าสู่ระบบ</string>
+    <string name="law2477">กฎหมายการชุมนุม</string>
+    <string name="law_by_cat">กฎหมายการชุมนุม แบ่งตามหมวดหมู่</string>
+    <string name="law_by_statute">กฎหมายการชุมนุม แบ่งตามมาตรา</string>
+    <string name="note">Note :</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="change_password">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="noaccount_registernow">ยังไม่มีบัญชี สมัครสมาชิก</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="change_password_th">เปลี่ยนรหัสผ่าน</string>
+    <string name="old_password">รหัสผ่านเดิม</string>
+    <string name="new_password">รหัสผ่านใหม่</string>
+    <string name="create_note">สร้างบันทึก</string>
+    <string name="forgot_password">ลืมรหัสผ่าน</string>
+    <string name="upgrade_premium">อัพเกรดพรีเมี่ยม</string>
+    <string name="back">กลับ</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:anko-sqlite:0.10.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81b20cd37d35bda7ce6f7141893b48e5/anko-sqlite-0.10.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81b20cd37d35bda7ce6f7141893b48e5/anko-sqlite-0.10.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca805420a9f99bb4d271817e9cd0a57f/anko-sqlite-0.10.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/885375c1a6297e54528493c0873249b4/jetified-anko-sqlite-0.10.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/885375c1a6297e54528493c0873249b4/jetified-anko-sqlite-0.10.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/885375c1a6297e54528493c0873249b4/jetified-anko-sqlite-0.10.8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sqlite/0.10.8/5bf3f4c2bc1e657e1e607566be8d9706807b248e/anko-sqlite-0.10.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
